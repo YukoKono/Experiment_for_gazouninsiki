@@ -13,7 +13,7 @@ import time
 subscription_key = ""
 assert subscription_key
 
-vision_base_url = "https://westcentralus.api.cognitive.microsoft.com/vision/v2.0/"
+vision_base_url = "https://japaneast.api.cognitive.microsoft.com/vision/v2.0/"
 analyze_url = vision_base_url + "analyze"
 
 
@@ -59,4 +59,4 @@ if __name__ == "__main__":
     file_rename(image_file,vision_file_name)
 
     # 経過時間を出力
-    print("elapsed_time:{0}".format(time.time() - start) + "[sec]")
+    #print("elapsed_time:{0}".format(time.time() - start) + "[sec]")
