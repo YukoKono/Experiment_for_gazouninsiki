@@ -10,7 +10,7 @@ import glob
 import os
 import time
 
-subscription_key = "615717fdcee44610b72185fcda9af905"
+subscription_key = ""
 assert subscription_key
 
 vision_base_url = "https://westcentralus.api.cognitive.microsoft.com/vision/v2.0/"
